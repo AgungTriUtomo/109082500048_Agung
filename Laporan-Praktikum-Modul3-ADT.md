@@ -2,9 +2,7 @@
 <p align="center"> Agung Tri Utomo - 109082500048</p>
 
 ## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+Abstract Data Type (ADT) merupakan konsep pemrograman yang menjelaskan jenis data dan operasi yang dapat dilakukan tanpa memperlihatkan detail implementasinya. Struct adalah tipe data dalam C++ yang digunakan untuk menggabungkan beberapa variabel dengan tipe data berbeda dalam satu kelompok. Array merupakan struktur data yang menyimpan sekumpulan elemen dengan tipe data yang sama dan diakses menggunakan indeks yang dimulai dari 0. Sementara itu, pointer adalah variabel yang menyimpan alamat memori variabel lain sehingga dapat digunakan untuk mengakses dan mengubah nilai melalui alamat tersebut. Keempat konsep ini berperan penting dalam pengelolaan data agar program lebih terstruktur dan efisien.
 
 ### A. Abstract Data Type (ADT)<br/>
 ...
