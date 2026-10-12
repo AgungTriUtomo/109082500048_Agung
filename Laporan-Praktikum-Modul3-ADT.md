@@ -146,7 +146,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/AgungTriUtomo/109082500048_Agung/blob/main/modul3/Output/output-soal1.png)
+![Screenshot Output Unguided 1](output/outputsoal1.png)
 
 
 Program ini menyimpan data mahasiswa dalam array `data[10]` bertipe `struct mahasiswa`. Pengguna terlebih dahulu memasukkan jumlah mahasiswa (1-10), lalu mengisi nama, NIM, UTS, UAS, dan tugas untuk tiap mahasiswa. Nilai akhir tidak dihitung langsung di `main`, melainkan lewat fungsi `hitungNilaiAkhir()` yang mengembalikan `0.3*uts + 0.4*uas + 0.3*tugas`. Fungsi tersebut dipanggil di dalam prosedur `inputMhs()`, yang menerima parameter secara referensi (`&m`) agar perubahan nilai tersimpan pada elemen array. Setelah semua data terisi, prosedur `tampilMhs()` menampilkan seluruh data beserta nilai akhirnya. Sebagai contoh, UTS 80, UAS 90, dan tugas 70 menghasilkan nilai akhir 81.
