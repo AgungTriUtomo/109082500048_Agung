@@ -212,7 +212,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/AgungTriUtomo/109082500048_Agung/blob/main/modul3/Output/output-program.png)
+![Screenshot Output Unguided 2](output/outputsoal2.png
 
 Program dipisah menjadi tiga file sesuai konsep ADT. File `pelajaran.h` berisi spesifikasi type `pelajaran` (field `namaMapel` dan `kodeMapel`) serta prototype primitif `create_pelajaran()` sebagai konstruktor dan `tampil_pelajaran()` untuk menampilkan data. File `pelajaran.cpp` berisi realisasi (body) kedua primitif tersebut. File `main.cpp` bertindak sebagai driver yang membuat objek `pel` dengan nama "Struktur Data" dan kode "STD", lalu menampilkannya. Perintah compile: `g++ main.cpp pelajaran.cpp -o pelajaran`. Output yang dihasilkan:
 
@@ -291,7 +291,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3](https://github.com/AgungTriUtomo/109082500048_Agung/blob/main/modul3/Output/output-soal3.png)
+![Screenshot Output Unguided 3](output/outputsoal3.png
 
 
 Program memiliki dua array `A` dan `B` berukuran 3x3 serta dua pointer `p1` dan `p2` yang menunjuk ke variabel `x` dan `y`. Prosedur `tampilArray()` menampilkan isi array dengan dua perulangan bersarang. Prosedur `tukarPosisi()` menukar elemen `A[baris][kolom]` dengan `B[baris][kolom]` menggunakan variabel `temp`; posisi dimasukkan oleh pengguna dan divalidasi agar berada pada rentang 0-2. Prosedur `tukarPointer()` menukar isi variabel yang ditunjuk oleh kedua pointer (`*p1` dan `*p2`), sehingga nilai `x` dan `y` saling bertukar (misalnya dari 10 dan 20 menjadi 20 dan 10), sedangkan alamat yang disimpan pointer tidak berubah.
